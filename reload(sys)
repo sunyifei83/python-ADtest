@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+#__author__ = 'vincentsun'
+'''
+#=============================================================================
+#     FileName:         *.py
+#     Desc:             在import完后输入，解决搜索关键字中文无法正常识别的问题
+#     Author:           vincent.sun
+#     Email:            sunyifei83@gmail.com
+#     HomePage:         http://ccie119.blog.51cto.com/
+#     Version:          0.0.1
+#     LastChange:       2014-08-09 17:51:49
+#     History:
+#=============================================================================
+'''
+
+
+
+
+reload(sys)
+sys.setdefaultencoding('utf8')    #解决中文字符问题
